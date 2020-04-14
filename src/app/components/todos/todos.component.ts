@@ -17,4 +17,8 @@ export class TodosComponent implements OnInit {
       this.todos = todos;
     }); 
   }
+
+  deleteTodo(todo:Todo) {
+    console.log('delete me!');
+  }
 }
