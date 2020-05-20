@@ -26,7 +26,7 @@ export class TodoService {
   // Delete Todo
   deleteTodo(todo):Observable<Todo> {
     const url = `${this.todosUrl}/${todo.id}`;
-    return this.http.delete<Todo>(url, httpOptions);
+    return this.http.delete<Todo>(url, httpOptions); 
   }
 
   // Toggle Completed
