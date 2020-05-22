@@ -24,4 +24,8 @@ export class TodosComponent implements OnInit {
     //Remove from server
     this.todoService.deleteTodo(todo).subscribe();
   }
+
+  addTodo(todo:Todo) {
+    
+  }
 }
